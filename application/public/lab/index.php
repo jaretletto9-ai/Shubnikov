@@ -1,0 +1,3 @@
+<?php require dirname(__DIR__,2).'/bootstrap.php'; need_user(); head('Исследования'); ?>
+<section><p class="eyebrow">Лабораторная №3</p><h1>Исследования</h1><p class="notice">Изолированный учебный стенд. Только тестовые данные.</p>
+<div class="experiments"><a href="/lab/sqli.php?test_id=1">SQL-инъекция</a><a href="/lab/sqli-safe.php?test_id=1">SQL: исправленный вариант</a><a href="/lab/xss.php">Хранимая XSS</a><a href="/lab/xss-safe.php">XSS: исправленный вариант</a><a href="/lab/upload.php">Загрузка файлов</a><a href="/posts.php">Загрузка: исправленный вариант</a></div></section><?php foot(); ?>

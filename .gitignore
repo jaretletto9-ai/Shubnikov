@@ -1,0 +1,25 @@
+# Local credentials and runtime data
+application/config.php
+**/lab-secrets.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+application/public/uploads/
+application/public/lab/uploads/
+*.log
+*.pid
+*.sock
+__pycache__/
+*.pyc
+
+# Evidence, test requests, and generated packages are not project sources
+evidence/
+requests/
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
